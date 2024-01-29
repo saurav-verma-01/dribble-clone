@@ -1,0 +1,22 @@
+@keyframes scroll-right {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.slider {
+  animation: scroll-right 20s linear 2s infinite;
+}
+.hero-slider::-webkit-scrollbar {
+  display: none;
+}
+.products {
+  animation: scroll-right 30s linear 2s infinite;
+}
+.product-slider::-webkit-scrollbar {
+  display: none;
+}
