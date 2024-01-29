@@ -204,9 +204,9 @@ body {
   width: 100%;
 }
 
-.hero-slider::-webkit-scrollbar {
+/* .hero-slider::-webkit-scrollbar {
   display: none;
-}
+} */
 .slider-elem {
   flex-shrink: 0;
   width: 17.25rem;
