@@ -49,6 +49,9 @@
   height: 55px;
 }
 
+.content-box .btn:is(:hover, :focus-visible) {
+  background-color: #333333;
+}
 /* Hero Slider */
 
 .hero-slider {
